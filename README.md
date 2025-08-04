@@ -1,4 +1,4 @@
-<h1 align="center">Flora</h1>
+<h1 align="center">Flora Assets</h1>
 
 <p align="center">
 <img src="Flora.png" alt="Flora">
@@ -17,7 +17,7 @@
      <a href="https://liberapay.com/colorindarkness"><img alt="Support me on Liberapay" src="https://img.shields.io/badge/support_me_on-liberapay-yellow?link=https%3A%2F%2Fliberapay.com%2Fcolorindarkness%2F"></a>
 </p>
 
-A kit of fully functional, customizable and optimized foliage assets with compatible licenses gathered from the internet, prepared and standardized with Wind support for Unreal Engine 5. Check out the parent project [Target Vector](https://github.com/Voidware-Prohibited/TargetVector).
+Source Asset files for [Flora](https://github.com/Voidware-Prohibited/Flora), A kit of fully functional, customizable and optimized foliage assets with compatible licenses gathered from the internet, prepared and standardized with Wind support for Unreal Engine 5.
 
 _Flora is under heavy development, many features may not be finished or production-ready_.
 
@@ -48,22 +48,6 @@ _Flora is under heavy development, many features may not be finished or producti
 - Fallen Trees
 - Rocks/Stones
 
-# Installation
-
-Clone or Download into a folder named _Flora_ in your existing projects Plugins folder.
-
-The SourceArt folder contains all the original art assets including the Blender file, Photoshop files, exported image files and audio files.
-
-# Usage
-
-## Unreal Engine
-
-Basic: In Foliage Mode, simply add the desired assets to your Foliage brush and begin painting on the landscape.
-
-Intermediate: Add desired assets as Grass assets to a Landscape Auto Material.
-
-Advanced: Add desired assets as Instanced Foliage Actor assets to a Landscape Auto Material for Customization and Interactability.
-
 ## Material and Texture Setup
 
 All Textures are Channel Packed into the RGBA Channels. Targa (.TGA) files are used whenever useful to store data in the Alpha channel.
@@ -79,10 +63,6 @@ Some assets may not use all maps/channels.
 - Color Map (RGB) _filename_\_CM.(tga/png)
 - Ambient Occlusion (R), Roughness (G), Metallic (B), Specular (Alpha) _filename_\_AORMS.(tga)
 - Normal Map (RG), Height/Displacement Map (B), Subsurface Scattering Map (Alpha) _filename_\_NHSS.(tga)
-
-# Settings
-
-An example Material setup is included in Content that utilizes up to 3 customizable colors and other parameters.
 
 # Contributions
 
